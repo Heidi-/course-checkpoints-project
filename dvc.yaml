@@ -1,6 +1,6 @@
 stages:
   training:
-    cmd: python pretrained_model_tuner.py
+    cmd: python src/pretrained_model_tuner.py
     deps:
     - hymenoptera_data/
     - src/pretrained_model_tuner.py
